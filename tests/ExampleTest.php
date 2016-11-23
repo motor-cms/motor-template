@@ -6,14 +6,13 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 
 class ExampleTest extends TestCase
 {
+
     /**
-     * A basic functional test example.
+     * Check if the login without data fails
      *
      * @return void
      */
-    public function testBasicExample()
+    public function testLoginFailed()
     {
-        $this->visit('/')
-             ->see('Laravel');
     }
 }

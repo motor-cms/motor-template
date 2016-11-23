@@ -11,6 +11,7 @@
     <testsuites>
         <testsuite name="Application Test Suite">
             <directory suffix="Test.php">./tests</directory>
+            <directory suffix="Test.php">./packages/dfox288/motor-backend/tests</directory>
         </testsuite>
     </testsuites>
     <filter>
