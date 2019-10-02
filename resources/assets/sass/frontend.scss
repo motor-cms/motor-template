@@ -1,0 +1,18 @@
+// Settings
+@import "foundation-settings";
+
+// Foundation
+@import "~foundation-sites/scss/foundation";
+
+@import '~motor-cms/resources/assets/sass/frontend.scss';
+
+// Include Everything (True) for the Flex Grid :);
+@include foundation-everything(true);
+
+.contain {
+  width: rem-calc(1200);
+  margin: 0 auto;
+}
+
+@import "~@fancyapps/fancybox/dist/jquery.fancybox";
+@import "~toastr/toastr";

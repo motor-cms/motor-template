@@ -162,7 +162,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
 //        Illuminate\View\ViewServiceProvider::class,             <-- we're replacing this so we can use blade templates from strings
-        Wpb\String_Blade_Compiler\ViewServiceProvider::class,
+        Wpb\String_Blade_Compiler\StringBladeServiceProvider::class,
         /*
          * Package Service Providers...
          */
@@ -174,17 +174,12 @@ return [
          */
         App\Providers\AppServiceProvider::class,
         App\Providers\AuthServiceProvider::class,
-        // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-		Motor\Backend\Providers\MotorServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         Laracasts\Flash\FlashServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
-        Dimsav\Translatable\TranslatableServiceProvider::class,
-        Sofa\Eloquence\ServiceProvider::class,
         Lavary\Menu\ServiceProvider::class,
         Culpa\CulpaServiceProvider::class,
         Kris\LaravelFormBuilder\FormBuilderServiceProvider::class,
@@ -192,7 +187,7 @@ return [
         Barryvdh\Cors\ServiceProvider::class,
         Fideloper\Proxy\TrustedProxyServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
-        Motor\Core\Providers\MotorServiceProvider::class,
+        Motor\CMS\Providers\MotorServiceProvider::class,
 
     ],
 
@@ -250,5 +245,4 @@ return [
         'Menu'        => Lavary\Menu\Facade::class,
         'FormBuilder' => Kris\LaravelFormBuilder\Facades\FormBuilder::class,
     ],
-
 ];

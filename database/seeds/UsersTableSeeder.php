@@ -1,8 +1,13 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Str;
+use Motor\Backend\Models\Role;
 use Motor\Backend\Models\User;
 
+/**
+ * Class UsersTableSeeder
+ */
 class UsersTableSeeder extends Seeder
 {
 
@@ -17,16 +22,12 @@ class UsersTableSeeder extends Seeder
             'name'       => 'Motor Admin',
             'email'      => 'motor@esmaili.info',
             'password'   => bcrypt('admin'),
-            'api_token'  => str_random(60),
+            'api_token'  => Str::random(60),
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s'),
         ]);
 
-        DB::table('roles')->insert([
-            'name'       => 'SuperAdmin'
-        ]);
-
         $user = User::where('email', 'motor@esmaili.info')->first();
-        $user->assignRole('SuperAdmin');
+        $user->assignRole(Role::where('name', 'SuperAdmin')->first());
     }
 }
