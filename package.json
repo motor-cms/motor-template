@@ -28,7 +28,7 @@
     "foundation-sites": "^6.5.3",
     "fs-extra": "^4.0.3",
     "google-fonts-webpack-plugin": "^0.4.4",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jquery-ui-dist": "^1.12.1",
     "jstree": "^3.3.8",
     "laravel-echo": "^1.6.0",
