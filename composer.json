@@ -10,9 +10,8 @@
         "php": "^7.2.5",
         "ext-json": "*",
         "motor-cms/motor-backend": "^0.10",
-        "motor-cms/motor-cms": "^0.10",
-        "motor-cms/motor-core": "^0.10",
-        "motor-cms/motor-media": "^0.10"
+        "motor-cms/motor-media": "^0.10",
+        "motor-cms/motor-cms": "^0.10"
     },
     "autoload": {
         "classmap": [

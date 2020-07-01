@@ -6,13 +6,6 @@
       0 => 'Astrotomic\\Translatable\\TranslatableServiceProvider',
     ),
   ),
-  'barryvdh/laravel-cors' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Barryvdh\\Cors\\ServiceProvider',
-    ),
-  ),
   'barryvdh/laravel-ide-helper' => 
   array (
     'providers' => 
@@ -20,11 +13,29 @@
       0 => 'Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider',
     ),
   ),
+  'enbit/string-blade-compiler' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Wpb\\String_Blade_Compiler\\StringBladeServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'StringBlade' => 'Wpb\\String_Blade_Compiler\\Facades\\StringBlade',
+    ),
+  ),
   'fideloper/proxy' => 
   array (
     'providers' => 
     array (
       0 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
+    ),
+  ),
+  'fruitcake/laravel-cors' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Fruitcake\\Cors\\CorsServiceProvider',
     ),
   ),
   'intervention/image' => 
@@ -85,6 +96,13 @@
       0 => 'Laravel\\Tinker\\TinkerServiceProvider',
     ),
   ),
+  'laravel/ui' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Ui\\UiServiceProvider',
+    ),
+  ),
   'laravelcollective/html' => 
   array (
     'providers' => 
@@ -143,13 +161,6 @@
       0 => 'Carbon\\Laravel\\ServiceProvider',
     ),
   ),
-  'nunomaduro/phpinsights' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'NunoMaduro\\PhpInsights\\Application\\Adapters\\Laravel\\InsightsServiceProvider',
-    ),
-  ),
   'spatie/laravel-fractal' => 
   array (
     'providers' => 
@@ -180,29 +191,6 @@
     'providers' => 
     array (
       0 => 'Tightenco\\Ziggy\\ZiggyServiceProvider',
-    ),
-  ),
-  'tymon/jwt-auth' => 
-  array (
-    'aliases' => 
-    array (
-      'JWTAuth' => 'Tymon\\JWTAuth\\Facades\\JWTAuth',
-      'JWTFactory' => 'Tymon\\JWTAuth\\Facades\\JWTFactory',
-    ),
-    'providers' => 
-    array (
-      0 => 'Tymon\\JWTAuth\\Providers\\LaravelServiceProvider',
-    ),
-  ),
-  'wpb/string-blade-compiler' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Wpb\\String_Blade_Compiler\\StringBladeServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'StringBlade' => 'Wpb\\String_Blade_Compiler\\Facades\\StringBlade',
     ),
   ),
 );

@@ -161,8 +161,7 @@ return [
         Illuminate\Session\SessionServiceProvider::class,
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
-//        Illuminate\View\ViewServiceProvider::class,             <-- we're replacing this so we can use blade templates from strings
-        Wpb\String_Blade_Compiler\StringBladeServiceProvider::class,
+        Illuminate\View\ViewServiceProvider::class,
         /*
          * Package Service Providers...
          */
@@ -184,7 +183,6 @@ return [
         Culpa\CulpaServiceProvider::class,
         Kris\LaravelFormBuilder\FormBuilderServiceProvider::class,
         Spatie\MediaLibrary\MediaLibraryServiceProvider::class,
-        Barryvdh\Cors\ServiceProvider::class,
         Fideloper\Proxy\TrustedProxyServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
         Motor\CMS\Providers\MotorServiceProvider::class,
