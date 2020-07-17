@@ -38,7 +38,7 @@
     "jstree": "^3.3.9",
     "laravel-echo": "^1.7.0",
     "laravel-mix": "^4.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "mediaelement": "^4.2.16",
     "medium-editor": "^5.23.3",
     "metismenu": "^2.7.9",
