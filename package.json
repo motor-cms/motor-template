@@ -60,7 +60,7 @@
     "socket.io-client": "^2.3.0",
     "tempusdominus-bootstrap-4": "^5.1.2",
     "tempusdominus-core": "^5.0.3",
-    "three": "^0.111.0",
+    "three": "^0.125.0",
     "toastr": "^2.1.4",
     "vue": "^2.6.11",
     "vue-audio": "0.0.12",
