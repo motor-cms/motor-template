@@ -16,6 +16,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        if($this->app->environment('production')) {
+            \URL::forceScheme('https');
+        }
         Horizon::auth(static function ($request) {
             if (Auth::user() != null) {
                 return true;
