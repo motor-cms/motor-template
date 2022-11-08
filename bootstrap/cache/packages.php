@@ -1,11 +1,4 @@
 <?php return array (
-  'astrotomic/laravel-translatable' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Astrotomic\\Translatable\\TranslatableServiceProvider',
-    ),
-  ),
   'barryvdh/laravel-ide-helper' => 
   array (
     'providers' => 
@@ -13,29 +6,15 @@
       0 => 'Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider',
     ),
   ),
-  'enbit/string-blade-compiler' => 
+  'darkaonline/l5-swagger' => 
   array (
     'providers' => 
     array (
-      0 => 'Wpb\\String_Blade_Compiler\\StringBladeServiceProvider',
+      0 => 'L5Swagger\\L5SwaggerServiceProvider',
     ),
     'aliases' => 
     array (
-      'StringBlade' => 'Wpb\\String_Blade_Compiler\\Facades\\StringBlade',
-    ),
-  ),
-  'fideloper/proxy' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
-    ),
-  ),
-  'fruitcake/laravel-cors' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Fruitcake\\Cors\\CorsServiceProvider',
+      'L5Swagger' => 'L5Swagger\\L5SwaggerFacade',
     ),
   ),
   'intervention/image' => 
@@ -56,28 +35,6 @@
       0 => 'Kalnoy\\Nestedset\\NestedSetServiceProvider',
     ),
   ),
-  'kris/laravel-form-builder' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Kris\\LaravelFormBuilder\\FormBuilderServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'FormBuilder' => 'Kris\\LaravelFormBuilder\\Facades\\FormBuilder',
-    ),
-  ),
-  'laracasts/flash' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Laracasts\\Flash\\FlashServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'Flash' => 'Laracasts\\Flash\\Flash',
-    ),
-  ),
   'laravel/horizon' => 
   array (
     'providers' => 
@@ -89,6 +46,13 @@
       'Horizon' => 'Laravel\\Horizon\\Horizon',
     ),
   ),
+  'laravel/sanctum' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Sanctum\\SanctumServiceProvider',
+    ),
+  ),
   'laravel/tinker' => 
   array (
     'providers' => 
@@ -96,48 +60,12 @@
       0 => 'Laravel\\Tinker\\TinkerServiceProvider',
     ),
   ),
-  'laravel/ui' => 
+  'motor-cms/motor-admin' => 
   array (
     'providers' => 
     array (
-      0 => 'Laravel\\Ui\\UiServiceProvider',
-    ),
-  ),
-  'laravelcollective/html' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Collective\\Html\\HtmlServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'Form' => 'Collective\\Html\\FormFacade',
-      'Html' => 'Collective\\Html\\HtmlFacade',
-    ),
-  ),
-  'lavary/laravel-menu' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Lavary\\Menu\\ServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'Menu' => 'Lavary\\Menu\\Facade',
-    ),
-  ),
-  'martinlindhe/laravel-vue-i18n-generator' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'MartinLindhe\\VueInternationalizationGenerator\\GeneratorProvider',
-    ),
-  ),
-  'motor-cms/motor-backend' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Motor\\Backend\\Providers\\MotorServiceProvider',
+      0 => 'Motor\\Admin\\Providers\\MotorServiceProvider',
+      1 => 'Motor\\Admin\\Providers\\MotorAuthServiceProvider',
     ),
   ),
   'motor-cms/motor-core' => 
@@ -161,15 +89,11 @@
       0 => 'Carbon\\Laravel\\ServiceProvider',
     ),
   ),
-  'spatie/laravel-fractal' => 
+  'nunomaduro/termwind' => 
   array (
     'providers' => 
     array (
-      0 => 'Spatie\\Fractal\\FractalServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'Fractal' => 'Spatie\\Fractal\\FractalFacade',
+      0 => 'Termwind\\Laravel\\TermwindServiceProvider',
     ),
   ),
   'spatie/laravel-medialibrary' => 
@@ -184,13 +108,6 @@
     'providers' => 
     array (
       0 => 'Spatie\\Permission\\PermissionServiceProvider',
-    ),
-  ),
-  'tightenco/ziggy' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Tightenco\\Ziggy\\ZiggyServiceProvider',
     ),
   ),
 );
