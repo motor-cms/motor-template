@@ -1997,16 +1997,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v9.38.0",
+            "version": "v9.39.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "abf198e443e06696af3f356b44de67c0fa516107"
+                "reference": "67e674709e1e7db14f304a871481f310822d68c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/abf198e443e06696af3f356b44de67c0fa516107",
-                "reference": "abf198e443e06696af3f356b44de67c0fa516107",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/67e674709e1e7db14f304a871481f310822d68c5",
+                "reference": "67e674709e1e7db14f304a871481f310822d68c5",
                 "shasum": ""
             },
             "require": {
@@ -2179,20 +2179,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2022-11-01T14:05:55+00:00"
+            "time": "2022-11-08T14:47:39+00:00"
         },
         {
             "name": "laravel/horizon",
-            "version": "v5.10.3",
+            "version": "v5.10.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/horizon.git",
-                "reference": "22403726851d62c45051114c89106130c348decc"
+                "reference": "07a5d73b804c6ba17598e378057f4353c983fb3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/horizon/zipball/22403726851d62c45051114c89106130c348decc",
-                "reference": "22403726851d62c45051114c89106130c348decc",
+                "url": "https://api.github.com/repos/laravel/horizon/zipball/07a5d73b804c6ba17598e378057f4353c983fb3a",
+                "reference": "07a5d73b804c6ba17598e378057f4353c983fb3a",
                 "shasum": ""
             },
             "require": {
@@ -2254,9 +2254,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/horizon/issues",
-                "source": "https://github.com/laravel/horizon/tree/v5.10.3"
+                "source": "https://github.com/laravel/horizon/tree/v5.10.4"
             },
-            "time": "2022-10-14T13:33:44+00:00"
+            "time": "2022-11-07T08:57:31+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -3175,16 +3175,16 @@
         },
         {
             "name": "motor-cms/motor-admin",
-            "version": "2.0.4",
+            "version": "2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/motor-cms/motor-admin.git",
-                "reference": "24aec247a0773c297bb53c78784a57bf78129df1"
+                "reference": "c022783819066cc12caccdcc7a2ccd6fe2835876"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/motor-cms/motor-admin/zipball/24aec247a0773c297bb53c78784a57bf78129df1",
-                "reference": "24aec247a0773c297bb53c78784a57bf78129df1",
+                "url": "https://api.github.com/repos/motor-cms/motor-admin/zipball/c022783819066cc12caccdcc7a2ccd6fe2835876",
+                "reference": "c022783819066cc12caccdcc7a2ccd6fe2835876",
                 "shasum": ""
             },
             "require": {
@@ -3246,22 +3246,22 @@
             ],
             "support": {
                 "issues": "https://github.com/motor-cms/motor-admin/issues",
-                "source": "https://github.com/motor-cms/motor-admin/tree/2.0.4"
+                "source": "https://github.com/motor-cms/motor-admin/tree/2.0.5"
             },
-            "time": "2022-07-07T09:31:12+00:00"
+            "time": "2022-11-09T22:01:16+00:00"
         },
         {
             "name": "motor-cms/motor-cms",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/motor-cms/motor-cms.git",
-                "reference": "b9cfcea3383e304020c71db0fea7819e51f3b683"
+                "reference": "4fc78a37aaa9ac2fc18e94c6d2ab6c26c30867ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/motor-cms/motor-cms/zipball/b9cfcea3383e304020c71db0fea7819e51f3b683",
-                "reference": "b9cfcea3383e304020c71db0fea7819e51f3b683",
+                "url": "https://api.github.com/repos/motor-cms/motor-cms/zipball/4fc78a37aaa9ac2fc18e94c6d2ab6c26c30867ac",
+                "reference": "4fc78a37aaa9ac2fc18e94c6d2ab6c26c30867ac",
                 "shasum": ""
             },
             "require": {
@@ -3300,22 +3300,22 @@
             ],
             "support": {
                 "issues": "https://github.com/motor-cms/motor-cms/issues",
-                "source": "https://github.com/motor-cms/motor-cms/tree/2.0.3"
+                "source": "https://github.com/motor-cms/motor-cms/tree/2.0.4"
             },
-            "time": "2022-07-01T13:55:00+00:00"
+            "time": "2022-11-09T22:01:38+00:00"
         },
         {
             "name": "motor-cms/motor-core",
-            "version": "2.0.3",
+            "version": "2.0.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/motor-cms/motor-core.git",
-                "reference": "27987753178ce3a9f4b7716661c6b3bfdfcfdb8f"
+                "reference": "781db6f99abda073aeade2f3a21ecb4bc841cde9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/motor-cms/motor-core/zipball/27987753178ce3a9f4b7716661c6b3bfdfcfdb8f",
-                "reference": "27987753178ce3a9f4b7716661c6b3bfdfcfdb8f",
+                "url": "https://api.github.com/repos/motor-cms/motor-core/zipball/781db6f99abda073aeade2f3a21ecb4bc841cde9",
+                "reference": "781db6f99abda073aeade2f3a21ecb4bc841cde9",
                 "shasum": ""
             },
             "require": {
@@ -3359,22 +3359,22 @@
             ],
             "support": {
                 "issues": "https://github.com/motor-cms/motor-core/issues",
-                "source": "https://github.com/motor-cms/motor-core/tree/2.0.3"
+                "source": "https://github.com/motor-cms/motor-core/tree/2.0.4"
             },
-            "time": "2022-07-01T13:55:10+00:00"
+            "time": "2022-11-09T22:01:58+00:00"
         },
         {
             "name": "motor-cms/motor-media",
-            "version": "2.0.4",
+            "version": "2.0.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/motor-cms/motor-media.git",
-                "reference": "0cedfb272842fd27b33e4d936699b3ccd72c0024"
+                "reference": "0c9bf5ff3732cb66c3ca96dcf8f48454f1915cbb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/motor-cms/motor-media/zipball/0cedfb272842fd27b33e4d936699b3ccd72c0024",
-                "reference": "0cedfb272842fd27b33e4d936699b3ccd72c0024",
+                "url": "https://api.github.com/repos/motor-cms/motor-media/zipball/0c9bf5ff3732cb66c3ca96dcf8f48454f1915cbb",
+                "reference": "0c9bf5ff3732cb66c3ca96dcf8f48454f1915cbb",
                 "shasum": ""
             },
             "require": {
@@ -3414,9 +3414,9 @@
             ],
             "support": {
                 "issues": "https://github.com/motor-cms/motor-media/issues",
-                "source": "https://github.com/motor-cms/motor-media/tree/2.0.4"
+                "source": "https://github.com/motor-cms/motor-media/tree/2.0.5"
             },
-            "time": "2022-07-07T09:32:01+00:00"
+            "time": "2022-11-09T22:02:22+00:00"
         },
         {
             "name": "myclabs/php-enum",
@@ -3483,16 +3483,16 @@
         },
         {
             "name": "nesbot/carbon",
-            "version": "2.62.1",
+            "version": "2.63.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/briannesbitt/Carbon.git",
-                "reference": "01bc4cdefe98ef58d1f9cb31bdbbddddf2a88f7a"
+                "reference": "ad35dd71a6a212b98e4b87e97389b6fa85f0e347"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/01bc4cdefe98ef58d1f9cb31bdbbddddf2a88f7a",
-                "reference": "01bc4cdefe98ef58d1f9cb31bdbbddddf2a88f7a",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/ad35dd71a6a212b98e4b87e97389b6fa85f0e347",
+                "reference": "ad35dd71a6a212b98e4b87e97389b6fa85f0e347",
                 "shasum": ""
             },
             "require": {
@@ -3581,7 +3581,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-09-02T07:48:13+00:00"
+            "time": "2022-10-30T18:34:28+00:00"
         },
         {
             "name": "nette/schema",
@@ -5343,16 +5343,16 @@
         },
         {
             "name": "swagger-api/swagger-ui",
-            "version": "v4.15.2",
+            "version": "v4.15.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swagger-api/swagger-ui.git",
-                "reference": "6ce623329e27e83995bb80797097345a07529785"
+                "reference": "118ea1329c0948f4f7d5aa6a7776a11c84df5b13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/6ce623329e27e83995bb80797097345a07529785",
-                "reference": "6ce623329e27e83995bb80797097345a07529785",
+                "url": "https://api.github.com/repos/swagger-api/swagger-ui/zipball/118ea1329c0948f4f7d5aa6a7776a11c84df5b13",
+                "reference": "118ea1329c0948f4f7d5aa6a7776a11c84df5b13",
                 "shasum": ""
             },
             "type": "library",
@@ -5398,9 +5398,9 @@
             ],
             "support": {
                 "issues": "https://github.com/swagger-api/swagger-ui/issues",
-                "source": "https://github.com/swagger-api/swagger-ui/tree/v4.15.2"
+                "source": "https://github.com/swagger-api/swagger-ui/tree/v4.15.5"
             },
-            "time": "2022-10-26T19:47:11+00:00"
+            "time": "2022-11-09T06:53:40+00:00"
         },
         {
             "name": "symfony/cache",
@@ -8342,16 +8342,16 @@
         },
         {
             "name": "zircote/swagger-php",
-            "version": "4.5.0",
+            "version": "4.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zircote/swagger-php.git",
-                "reference": "6bd53355eb6505e1a1825f163dced55c240a3102"
+                "reference": "eb84fb4d65a327e604812fbddc6c27f69b9ed6e2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/6bd53355eb6505e1a1825f163dced55c240a3102",
-                "reference": "6bd53355eb6505e1a1825f163dced55c240a3102",
+                "url": "https://api.github.com/repos/zircote/swagger-php/zipball/eb84fb4d65a327e604812fbddc6c27f69b9ed6e2",
+                "reference": "eb84fb4d65a327e604812fbddc6c27f69b9ed6e2",
                 "shasum": ""
             },
             "require": {
@@ -8414,9 +8414,9 @@
             ],
             "support": {
                 "issues": "https://github.com/zircote/swagger-php/issues",
-                "source": "https://github.com/zircote/swagger-php/tree/4.5.0"
+                "source": "https://github.com/zircote/swagger-php/tree/4.5.1"
             },
-            "time": "2022-11-03T19:42:57+00:00"
+            "time": "2022-11-09T00:17:13+00:00"
         }
     ],
     "packages-dev": [
