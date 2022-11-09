@@ -1,6 +1,8 @@
 ## About MOTOR NX CMS
 
 ## Installation
+    
+    cp .env.example .env
 
     cd docker
     docker-compose -p motor-nx up -d

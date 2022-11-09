@@ -59,7 +59,7 @@ services:
       MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: root
     volumes:
-      - mysql:/var/lib/mysql
+      - ./docker-compose/mysql:/var/lib/mysql
     ports:
       - "3306:3306"
     networks:
