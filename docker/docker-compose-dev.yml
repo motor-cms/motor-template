@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   app:
-    image: motorcms/motor-headless-php-81-prod:1
+    image: motorcms/motor-headless-php-81-dev:latest
     environment:
       APP_NAME: motor-cms
       APP_URL: localhost
@@ -21,6 +21,7 @@ services:
     volumes:
       - ../:/var/www
       - ./docker-compose/php/custom_php.ini:/usr/local/etc/php/conf.d/custom.ini
+      - ./docker-compose/php/xdebug.ini:/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
       - ./docker-compose/php/error_reporting.ini:/usr/local/etc/php/conf.d/error_reporting.ini
     networks:
       - motor_network
@@ -58,7 +59,7 @@ services:
       MYSQL_PASSWORD: password
       MYSQL_ROOT_PASSWORD: root
     volumes:
-      - ./docker-compose/mysql:/var/lib/mysql
+      - ./docker-compose/mysql_dev:/var/lib/mysql
     ports:
       - "3306:3306"
     networks:
