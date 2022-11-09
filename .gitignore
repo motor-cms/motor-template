@@ -15,3 +15,4 @@ update-production.sh
 install-dev.sh
 install-production.sh
 docker/docker-compose/mysql/
+docker/docker-compose/mysql_dev/
