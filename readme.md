@@ -34,3 +34,20 @@
     COMPOSER=composer-dev.json composer update
 
 Login is motor@esmaili.info / admin
+
+## Generating modules
+
+### Module in the default namespace (\App)
+
+    php artisan motor:make:module Desk
+
+### Module in a custom namespace
+
+Double backslashes are important!
+
+    php artisan motor:make:module Desk --namespace=Company\\Module\\Desk
+
+### Module in a separate path (e.g. a laravel package)
+
+    php artisan motor:make:module Desk --namespace=Company\\Module\\Deskt --path=packages/companymodule/src
+

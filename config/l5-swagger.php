@@ -147,7 +147,6 @@ return [
                 new OpenApi\Processors\MergeXmlContent(),
                 new OpenApi\Processors\OperationId(),
                 new OpenApi\Processors\CleanUnmerged(),
-
             ],
 
             /**
