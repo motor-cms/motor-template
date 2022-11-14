@@ -172,8 +172,6 @@ return [
         Motor\Admin\Providers\MotorAuthServiceProvider::class,
         Motor\Media\Providers\MotorServiceProvider::class,
 
-        Motor\CMS\Providers\MotorServiceProvider::class,
-
         L5Swagger\L5SwaggerServiceProvider::class,
     ],
 
