@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   app:
-    image: motorcms/motor-headless-php-81-prod:1
+    image: motorcms/motor-headless-app-prod
     environment:
       APP_NAME: motor-cms
       APP_URL: localhost
