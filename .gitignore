@@ -16,3 +16,7 @@ install-dev.sh
 install-production.sh
 docker/docker-compose/mysql/
 docker/docker-compose/mysql_dev/
+clockwork
+storage/clockwork
+.phpstorm.meta.php
+_ide_helper.php
