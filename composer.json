@@ -9,11 +9,11 @@
     "require": {
         "php": "^8.1",
         "ext-json": "*",
-        "motor-cms/motor-admin": "^2.0",
-        "motor-cms/motor-cms": "^2.0",
-        "motor-cms/motor-core": "^2.0",
-        "motor-cms/motor-media": "^2.0",
-        "fakerphp/faker": "^v1.12"
+        "motor-cms/motor-admin": "^2.1",
+        "motor-cms/motor-cms": "^2.1",
+        "motor-cms/motor-core": "^2.1",
+        "motor-cms/motor-media": "^2.1",
+        "fakerphp/faker": "^v1.20"
     },
     "autoload": {
         "psr-4": {
