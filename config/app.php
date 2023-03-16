@@ -163,7 +163,6 @@ return [
 
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Intervention\Image\ImageServiceProvider::class,
-        Culpa\CulpaServiceProvider::class,
         Spatie\MediaLibrary\MediaLibraryServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
 
@@ -214,23 +213,14 @@ return [
         'Request'      => Illuminate\Support\Facades\Request::class,
         'Response'     => Illuminate\Support\Facades\Response::class,
         'Route'        => Illuminate\Support\Facades\Route::class,
-        //        'Schema'    => Illuminate\Support\Facades\Schema::class,
-        'Schema'       => Culpa\Facades\Schema::class, // we use the culpa schema for easier migrations
+        'Schema'    => Illuminate\Support\Facades\Schema::class,
         'Session'      => Illuminate\Support\Facades\Session::class,
         'Storage'      => Illuminate\Support\Facades\Storage::class,
         'URL'          => Illuminate\Support\Facades\URL::class,
         'Validator'    => Illuminate\Support\Facades\Validator::class,
         'View'         => Illuminate\Support\Facades\View::class,
 
-        'Form'        => Collective\Html\FormFacade::class,
-        'Html'        => Collective\Html\HtmlFacade::class,
-        'Flash'       => Laracasts\Flash\Flash::class,
         'Image'       => Intervention\Image\Facades\Image::class,
-        'Menu'        => Lavary\Menu\Facade::class,
-        'FormBuilder' => Kris\LaravelFormBuilder\Facades\FormBuilder::class,
-
-        //'JWTAuth' => Tymon\JWTAuth\Facades\JWTAuth::class,
-
     ],
 
 ];
