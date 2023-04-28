@@ -79,7 +79,7 @@ services:
     ports:
       - ${MEILI_PORT:-7700}:7700
     networks:
-      - energis_network
+      - motor_network
     volumes:
       - ./docker-compose/meilisearch/data.ms:/data.ms
     restart: unless-stopped
