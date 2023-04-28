@@ -16,6 +16,8 @@ services:
       QUEUE_CONNECTION: redis
       REDIS_CLIENT: predis
       REDIS_PORT: 6379
+      MEILISEARCH_HOST: meilisearch:7700
+      MEILISEARCH_KEY: masterKey
     restart: unless-stopped
     working_dir: /var/www/
     volumes:
@@ -65,6 +67,22 @@ services:
     networks:
       - motor_network
 
+  meilisearch:
+    container_name: meilisearch
+    image: getmeili/meilisearch:v1.1.0
+    environment:
+      - MEILI_MASTER_KEY=${MEILI_MASTER_KEY:-masterKey}
+      - MEILI_NO_ANALYTICS=${MEILI_NO_ANALYTICS:-true}
+      - MEILI_ENV=${MEILI_ENV:-development}
+      - MEILI_LOG_LEVEL
+      - MEILI_DB_PATH=${MEILI_DB_PATH:-/data.ms}
+    ports:
+      - ${MEILI_PORT:-7700}:7700
+    networks:
+      - energis_network
+    volumes:
+      - ./docker-compose/meilisearch/data.ms:/data.ms
+    restart: unless-stopped
 
 volumes:
   mysql:
